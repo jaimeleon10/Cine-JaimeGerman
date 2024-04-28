@@ -39,8 +39,6 @@ Bsrc/main/kotlin/productos/repositories/butacas/ButacaRepository.kt,8\c\8c421d6
 Lsrc/main/kotlin/productos/repositories/complementos/ComplementoRepository.kt,b\5\b525b59b8843f05d13d2b93ab84b536db67799b1
 v
 Fsrc/main/kotlin/productos/repositories/butacas/ButacaRepositoryImpl.kt,3\5\3535b783b84415cc35dae5dba178626f5634e22f
-{
-Ksrc/main/kotlin/productos/repositories/butacas/ComplementoRepositoryImpl.kt,a\d\adda7ed597c0d34cba185c264117902117499f63
 €
 Psrc/main/kotlin/productos/repositories/complementos/ComplementoRepositoryImpl.kt,2\1\21dafd9902bebe1898a9012c5096622bba5fe8e3
 f
@@ -81,7 +79,3 @@ U
 %src/main/kotlin/CineJaimeGermanApp.kt,2\7\27d685938c70fa2ec31e5a8fffce9034b270f147
 n
 >src/main/kotlin/clientes/repositories/ClienteRepositoryImpl.kt,1\a\1ae734ed6947cc67110063b49c169808c113a056
-k
-;data/FicherosDeDevolucion/entrada_A6_LYN282_28-04-2024.html,4\b\4ba3bbdda1f7470f6f683e4ea533d7c52e9e57b2
-\
-,data/FicherosJson/EstadoCine-28-04-2024.json,6\2\6242ee320ed92642aff84e1fe983da087e53763e
