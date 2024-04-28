@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="di.ProductosVentasModule" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-04-28T17:54:51" hostname="LAPTOP-3NHV45U1" time="0.945">
+  <properties/>
+  <testcase name="checkModules()" classname="di.ProductosVentasModule" time="0.483"/>
+  <testcase name="verifyModules()" classname="di.ProductosVentasModule" time="0.459"/>
+  <system-out><![CDATA[[INFO] [Koin] [Check] checking modules ...
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.database.service.SqlDeLightManager']
+19:54:51.413 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Inicializando el gestor de Bases de Datos con SQLDelight
+19:54:51.419 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:51.420 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- SqlDeLightClient - InMemory
+19:54:51.553 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Creando Tablas (si es necesario)
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.ventas.service.VentaService']
+19:54:51.587 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:51.589 [Test worker] DEBUG org.example.config.ConfigKt -- Cargando configuración DataBaseManager
+19:54:51.590 [Test worker] DEBUG org.example.config.ConfigKt -- Configuración cargada correctamente
+19:54:51.593 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:51.593 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:51.603 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:51.607 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:51.608 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:51.609 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:51.609 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:51.609 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.productos.ProductoService']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.cache.complementos.ComplementoCache']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.ventas.storage.VentaStorageHtmlCompraImpl']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.ventas.storage.VentaStorageHtmlDevolucionImpl']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.repositories.complementos.ComplementoRepository']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.clientes.repositories.ClienteRepository']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.ventas.repositories.VentaRepository']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.database.DataBaseManager']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.storage.StorageComplementos']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.ventas.storage.VentaStorageJsonImpl']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.cache.butacas.ButacaCache']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.services.storage.StorageButacas']
+[INFO] [Koin] [Check] definition: [Singleton:'org.example.productos.repositories.butacas.ButacaRepository']
+[INFO] [Koin] [Check] All checked
+Verifying module 'org.koin.core.module.Module@1bad5a38' ...
+
+|-> definition [Singleton:'org.example.database.service.SqlDeLightManager']
+| bind types: [class org.example.database.service.SqlDeLightManager]
+| 3 dependencies to check
+|- dependency 'class kotlin.Boolean' found ?
+|- dependency 'class kotlin.String' found ?
+|- dependency 'class kotlin.Boolean' found ?
+
+|-> definition [Singleton:'org.example.productos.services.database.DataBaseManager']
+| bind types: [class org.example.productos.services.database.DataBaseManager]
+
+[SUCCESS] module 'org.koin.test.verify.Verify@5aae8eb5' has been verified in 411.655299 ms.
+Verifying module 'org.koin.core.module.Module@647697ab' ...
+
+|-> definition [Singleton:'org.example.clientes.repositories.ClienteRepository']
+| bind types: [class org.example.clientes.repositories.ClienteRepository]
+
+[SUCCESS] module 'org.koin.test.verify.Verify@5aae8eb5' has been verified in 1.935 ms.
+Verifying module 'org.koin.core.module.Module@d1d8a003' ...
+
+|-> definition [Singleton:'org.example.productos.services.storage.StorageComplementos']
+| bind types: [class org.example.productos.services.storage.StorageComplementos]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.productos.services.cache.butacas.ButacaCache']
+| bind types: [class org.example.productos.services.cache.butacas.ButacaCache]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.productos.services.storage.StorageButacas']
+| bind types: [class org.example.productos.services.storage.StorageButacas]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.productos.repositories.butacas.ButacaRepository']
+| bind types: [class org.example.productos.repositories.butacas.ButacaRepository]
+
+|-> definition [Singleton:'org.example.productos.services.productos.ProductoService']
+| bind types: [class org.example.productos.services.productos.ProductoService]
+
+|-> definition [Singleton:'org.example.productos.services.cache.complementos.ComplementoCache']
+| bind types: [class org.example.productos.services.cache.complementos.ComplementoCache]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.productos.repositories.complementos.ComplementoRepository']
+| bind types: [class org.example.productos.repositories.complementos.ComplementoRepository]
+
+[SUCCESS] module 'org.koin.test.verify.Verify@5aae8eb5' has been verified in 14.8269 ms.
+Verifying module 'org.koin.core.module.Module@f8c2c03f' ...
+
+|-> definition [Singleton:'org.example.ventas.repositories.VentaRepository']
+| bind types: [class org.example.ventas.repositories.VentaRepository]
+
+|-> definition [Singleton:'org.example.ventas.service.VentaService']
+| bind types: [class org.example.ventas.service.VentaService]
+
+|-> definition [Singleton:'org.example.ventas.storage.VentaStorageJsonImpl']
+| bind types: [class org.example.ventas.storage.VentaStorageJsonImpl]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.ventas.storage.VentaStorageHtmlCompraImpl']
+| bind types: [class org.example.ventas.storage.VentaStorageHtmlCompraImpl]
+| no dependency to check
+
+|-> definition [Singleton:'org.example.ventas.storage.VentaStorageHtmlDevolucionImpl']
+| bind types: [class org.example.ventas.storage.VentaStorageHtmlDevolucionImpl]
+| no dependency to check
+
+[SUCCESS] module 'org.koin.test.verify.Verify@5aae8eb5' has been verified in 19.139301 ms.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

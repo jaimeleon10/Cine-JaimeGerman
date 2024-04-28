@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ButacaRepositoryImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ButacaRepositoryImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/productos.repositories.html">productos.repositories</a> &gt; ButacaRepositoryImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.474s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">delete()</td>
+<td class="success">0.076s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteNotFound()</td>
+<td class="success">0.051s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAll()</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findById()</td>
+<td class="success">0.044s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findByIdNotFound()</td>
+<td class="success">0.043s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">save()</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update()</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateNotFound()</td>
+<td class="success">0.101s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Inicializando todos los tests...
+19:54:52.120 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Inicializando el gestor de Bases de Datos con SQLDelight
+19:54:52.120 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.120 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- SqlDeLightClient - File: jdbc:sqlite:cineJaimeGerman.db
+19:54:52.121 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Creando Tablas (si es necesario)
+19:54:52.150 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.152 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.157 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.162 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.171 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.173 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.174 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.174 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.175 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.176 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.184 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.184 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.184 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.185 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.202 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Actualizando butaca Butaca(id: , nombre: TEST-UPDATE, tipo: Butaca, precio: 8.0, fila: 0, columna: 0, tipoButaca: VIP, estadoButaca: MANTENIMIENTO, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.203 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A9
+19:54:52.204 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.206 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.209 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.209 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.241 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.243 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.247 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.249 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.254 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.256 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.257 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.257 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.258 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.259 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.268 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Borrando butaca con id A1
+19:54:52.268 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:52.268 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.268 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.278 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.279 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.280 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.281 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.287 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.288 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.322 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.324 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.326 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.327 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.332 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.334 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.335 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.335 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.336 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.337 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.343 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando todas las butacas
+19:54:52.344 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.344 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.345 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.346 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.367 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.369 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.371 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.372 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.376 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.377 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.378 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.379 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.380 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.380 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.388 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Actualizando butaca Butaca(id: , nombre: TEST-UPDATE, tipo: Butaca, precio: 8.0, fila: 0, columna: 0, tipoButaca: VIP, estadoButaca: MANTENIMIENTO, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.388 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:52.388 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.389 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.390 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.390 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.391 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.393 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.397 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.398 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.420 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.421 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.422 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.423 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.428 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.430 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.430 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.431 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.432 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.433 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.440 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:52.441 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.441 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.442 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.442 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.471 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.472 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.475 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.477 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.482 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.485 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.485 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.485 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.487 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.488 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.495 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Borrando butaca con id A9
+19:54:52.495 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A9
+19:54:52.495 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.495 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.496 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.497 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.521 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.523 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.526 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.528 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.532 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.535 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.535 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.536 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.538 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.539 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.545 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Guardando butaca Butaca(id: A2, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 5, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.546 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.546 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.548 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.549 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.575 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.576 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:52.577 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:52.579 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:52.584 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.587 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.587 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.588 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.590 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.590 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.595 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id H2
+19:54:52.595 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.595 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.595 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.595 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 28 abr 2024, 19:54:56</p>
+</div>
+</div>
+</body>
+</html>
