@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="productos.repositories.ComplementoRepositoryImplTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-04-28T17:54:52" hostname="LAPTOP-3NHV45U1" time="0.19">
+  <properties/>
+  <testcase name="updateNotFound()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.038"/>
+  <testcase name="delete()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.026"/>
+  <testcase name="findAll()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.015"/>
+  <testcase name="update()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.029"/>
+  <testcase name="findById()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.019"/>
+  <testcase name="deleteNotFound()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.017"/>
+  <testcase name="save()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.024"/>
+  <testcase name="findByIdNotFound()" classname="productos.repositories.ComplementoRepositoryImplTest" time="0.015"/>
+  <system-out><![CDATA[Inicializando todos los tests...
+19:54:52.608 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Inicializando el gestor de Bases de Datos con SQLDelight
+19:54:52.608 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.608 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- SqlDeLightClient - File: jdbc:sqlite:cineJaimeGerman.db
+19:54:52.608 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Creando Tablas (si es necesario)
+19:54:52.616 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.616 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.617 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.617 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.618 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.619 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.620 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.641 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Actualizando complemento Complemento(id: 1, nombre: TEST-UPDATE, tipo: Complemento, precio: 5.0, stock: 10, categoria: COMIDA, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.641 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id 9
+19:54:52.643 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.643 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.644 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.645 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.647 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.647 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.649 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.649 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.649 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.650 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.651 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.656 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Borrando complemento con id 1
+19:54:52.656 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id 1
+19:54:52.656 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.656 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.659 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.659 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.660 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.662 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.669 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.670 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.674 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.675 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.676 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.676 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.677 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.678 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.678 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.685 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando todos los complementos
+19:54:52.687 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.687 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.687 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.688 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.690 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.691 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.694 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.694 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.695 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.695 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.697 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.705 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Actualizando complemento Complemento(id: 1, nombre: TEST-UPDATE, tipo: Complemento, precio: 5.0, stock: 10, categoria: COMIDA, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.705 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id 1
+19:54:52.705 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.705 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.705 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.706 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.707 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.709 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.715 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.715 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.720 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.721 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.723 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.724 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.724 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.725 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.726 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.733 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id 1
+19:54:52.733 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.733 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.734 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.735 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.740 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.741 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.743 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.743 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.744 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.745 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.745 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.752 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Borrando complemento con id 9
+19:54:52.752 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id 9
+19:54:52.752 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.752 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.753 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.754 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.758 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.758 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.760 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.760 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.761 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.763 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.764 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.772 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Guardando butaca Complemento(id: 2, nombre: Refresco, tipo: Complemento, precio: 3.0, stock: 20, categoria: BEBIDA, createdAt: 2024-04-28, updatedAt: null, isDeleted: false)
+19:54:52.773 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.774 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.777 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.778 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:52.783 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:52.784 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.785 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.785 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Creando tablas
+19:54:52.786 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.787 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Tablas creadas
+19:54:52.788 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Ejecutando script SQL con log: false
+19:54:52.795 [Test worker] DEBUG org.example.productos.repositories.complementos.ComplementoRepositoryImplKt -- Buscando complemento por id -1
+19:54:52.795 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:52.795 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:52.795 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:52.795 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

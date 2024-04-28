@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ventas.repositories.VentaRepositoryImplTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-04-28T17:54:56" hostname="LAPTOP-3NHV45U1" time="0.434">
+  <properties/>
+  <testcase name="updateNotFound()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.068"/>
+  <testcase name="delete()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.07"/>
+  <testcase name="findAll()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.034"/>
+  <testcase name="update()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.05"/>
+  <testcase name="findById()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.044"/>
+  <testcase name="deleteNotFound()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.031"/>
+  <testcase name="save()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.065"/>
+  <testcase name="findByIdNotFound()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.033"/>
+  <testcase name="totalVentasByDate()" classname="ventas.repositories.VentaRepositoryImplTest" time="0.033"/>
+  <system-out><![CDATA[Inicializando todos los tests...
+19:54:56.015 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Inicializando el gestor de Bases de Datos con SQLDelight
+19:54:56.015 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.015 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- SqlDeLightClient - File: jdbc:sqlite:cineJaimeGerman.db
+19:54:56.015 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Creando Tablas (si es necesario)
+19:54:56.054 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.057 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.060 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.063 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.071 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:56.073 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:56.073 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:56.073 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:56.075 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Actualizando venta por id: 57c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.075 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 57c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.105 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.108 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.112 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.113 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.119 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Borrando venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.119 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.132 [Test worker] DEBUG org.example.clientes.repositories.ClienteRepositoryImplKt -- Buscando cliente por id: 1
+19:54:56.143 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:56.143 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:56.144 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:56.145 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:56.146 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:56.175 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.176 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.179 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.180 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.185 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Buscando todas las ventas
+19:54:56.210 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.212 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.214 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.214 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.222 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Actualizando venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.222 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.226 [Test worker] DEBUG org.example.clientes.repositories.ClienteRepositoryImplKt -- Buscando cliente por id: 1
+19:54:56.229 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:56.229 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:56.230 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:56.232 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:56.233 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:56.260 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.261 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.263 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.264 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.272 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.275 [Test worker] DEBUG org.example.clientes.repositories.ClienteRepositoryImplKt -- Buscando cliente por id: 1
+19:54:56.279 [Test worker] DEBUG org.example.productos.repositories.butacas.ButacaRepositoryImplKt -- Buscando butaca por id A1
+19:54:56.279 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Iniciando conexión con la base de datos
+19:54:56.280 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos inicializada
+19:54:56.282 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Cerrando conexión con la base de datos
+19:54:56.282 [Test worker] DEBUG org.example.productos.services.database.DataBaseManagerKt -- Conexión con la base de datos cerrada
+19:54:56.304 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.306 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.308 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.309 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.314 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Borrando venta por id: 57c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.314 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 57c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.335 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.338 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.340 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.340 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.367 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Guardando venta: Venta(id=57c712fb-5531-4f33-a744-0fdb65cd9dcf, cliente=Cliente(id=1, nombre=Test, email=test@gmail.com, numSocio=CCC444, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false), lineas=[LineaVenta(id=c6297d04-a7f4-4c12-955d-6a49a86b8e94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)], fechaCompra=2024-04-28, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false)
+19:54:56.403 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.404 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.407 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.408 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.413 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo venta por id: 17c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.435 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Iniciando datos de ejemplo
+19:54:56.438 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Clientes
+19:54:56.439 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Ventas
+19:54:56.440 [Test worker] DEBUG org.example.database.service.SqlDeLightManagerKt -- Datos de ejemplo de Lineas de venta
+19:54:56.444 [Test worker] DEBUG org.example.ventas.repositories.VentaRepositoryImplKt -- Obteniendo recaudación total de ventas de fecha: 2024-04-28
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

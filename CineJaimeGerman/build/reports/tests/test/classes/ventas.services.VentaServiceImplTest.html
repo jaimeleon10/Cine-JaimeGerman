@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - VentaServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>VentaServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ventas.services.html">ventas.services</a> &gt; VentaServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.110s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createVenta()</td>
+<td class="success">0.096s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getById throws VentaNoEncontrada exception()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getById()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:54:56.460 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaRepository name=ventaRepository#148
+19:54:56.512 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlCompraImpl name=ventaStorageHtmlCompra#149
+19:54:56.555 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlDevolucionImpl name=ventaStorageHtmlDevolucion#150
+19:54:56.585 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageJsonImpl name=ventaStorageJson#151
+19:54:56.660 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Any name=child of ventaRepository#148#152
+19:54:56.663 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Any name=child of ventaRepository#148#153
+19:54:56.664 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Any name=child of ventaRepository#148#154
+19:54:56.722 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Venta name=child of ventaRepository#148#155
+19:54:56.723 [Test worker] DEBUG org.example.ventas.service.VentaServiceImplKt -- Creando venta: Venta(id=57c712fb-5531-4f33-a744-0fdb65cd9dcf, cliente=Cliente(id=1, nombre=test, email=test@gmail.com, numSocio=YYY999, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false), lineas=[LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)], fechaCompra=2024-04-28, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false)
+19:54:56.724 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Ok(Cliente(id=1, nombre=test, email=test@gmail.com, numSocio=YYY999, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false)) on VentaRepository(ventaRepository#148).validateCliente-Zyo9ksc(Cliente(id=1, nombre=test, email=test@gmail.com, numSocio=YYY999, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false))
+19:54:56.725 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Ok([LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)]) on VentaRepository(ventaRepository#148).validateLineas-Zyo9ksc([LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)])
+19:54:56.726 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Ok([LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)]) on VentaRepository(ventaRepository#148).actualizarStock-Zyo9ksc([LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)])
+19:54:56.726 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Venta(id=57c712fb-5531-4f33-a744-0fdb65cd9dcf, cliente=Cliente(id=1, nombre=test, email=test@gmail.com, numSocio=YYY999, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false), lineas=[LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)], fechaCompra=2024-04-28, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false) on VentaRepository(ventaRepository#148).save(Venta(id=57c712fb-5531-4f33-a744-0fdb65cd9dcf, cliente=Cliente(id=1, nombre=test, email=test@gmail.com, numSocio=YYY999, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false), lineas=[LineaVenta(id=6468ccdd-abfc-425d-96c2-cb2753a42f94, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)], fechaCompra=2024-04-28, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false))
+19:54:56.735 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaRepository name=ventaRepository#156
+19:54:56.736 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlCompraImpl name=ventaStorageHtmlCompra#157
+19:54:56.736 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlDevolucionImpl name=ventaStorageHtmlDevolucion#158
+19:54:56.736 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageJsonImpl name=ventaStorageJson#159
+19:54:56.739 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Venta name=child of ventaRepository#156#160
+19:54:56.740 [Test worker] DEBUG org.example.ventas.service.VentaServiceImplKt -- Obteniendo venta por id: 67c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.741 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Venta(id=67c712fb-5531-4f33-a744-0fdb65cd9dcf, cliente=Cliente(id=1, nombre=Jaime, email=jaime@gmail.com, numSocio=AAA111, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false), lineas=[LineaVenta(id=a067c4f6-011f-4f95-97ad-206164309c40, producto=Butaca(id: A1, nombre: Butaca, tipo: Butaca, precio: 5.0, fila: 0, columna: 0, tipoButaca: NORMAL, estadoButaca: ACTIVA, ocupacionButaca: LIBRE, createdAt: 2024-04-28, updatedAt: null, isDeleted: false), tipoProducto=Butaca, cantidad=1, precio=5.0, createdAt=2024-04-28, updatedAt=2024-04-28)], fechaCompra=2024-04-28, createdAt=2024-04-28, updatedAt=2024-04-28, isDeleted=false) on VentaRepository(ventaRepository#156).findById(67c712fb-5531-4f33-a744-0fdb65cd9dcf)
+19:54:56.744 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaRepository name=ventaRepository#161
+19:54:56.744 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlCompraImpl name=ventaStorageHtmlCompra#162
+19:54:56.745 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageHtmlDevolucionImpl name=ventaStorageHtmlDevolucion#163
+19:54:56.745 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for VentaStorageJsonImpl name=ventaStorageJson#164
+19:54:56.749 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Venta name=child of ventaRepository#161#165
+19:54:56.749 [Test worker] DEBUG org.example.ventas.service.VentaServiceImplKt -- Obteniendo venta por id: 57c712fb-5531-4f33-a744-0fdb65cd9dcf
+19:54:56.749 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering null on VentaRepository(ventaRepository#161).findById(57c712fb-5531-4f33-a744-0fdb65cd9dcf)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 28 abr 2024, 19:54:56</p>
+</div>
+</div>
+</body>
+</html>
