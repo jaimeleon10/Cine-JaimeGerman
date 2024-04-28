@@ -1,4 +1,4 @@
-package locale
+package org.example.locale
 
 import java.text.NumberFormat
 import java.time.LocalDate
