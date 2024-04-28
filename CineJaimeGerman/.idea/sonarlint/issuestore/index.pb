@@ -79,3 +79,15 @@ U
 %src/main/kotlin/CineJaimeGermanApp.kt,2\7\27d685938c70fa2ec31e5a8fffce9034b270f147
 n
 >src/main/kotlin/clientes/repositories/ClienteRepositoryImpl.kt,1\a\1ae734ed6947cc67110063b49c169808c113a056
+[
++src/test/kotlin/di/ProductosVentasModule.kt,f\1\f125cb2fdcac3e186ed324230a9470c655e1adcc
+r
+Bsrc/test/kotlin/productos/repositories/ButacaRepositoryImplTest.kt,2\9\299dc33916f9826d2a87dd68874f45746a74ba25
+w
+Gsrc/test/kotlin/productos/repositories/ComplementoRepositoryImplTest.kt,a\b\ab7e0fd6636c6749217213721fc7af7539eb5f73
+n
+>src/test/kotlin/productos/servicies/ProductoServiceImplTest.kt,c\1\c1b6b826d4dd7c154b60eb613ae05b60f44daa1c
+n
+>src/test/kotlin/ventas/repositories/VentaRepositoryImplTest.kt,0\f\0f71dea2d392a014b568cac5ad449753bdb3363b
+g
+7src/test/kotlin/ventas/services/VentaServiceImplTest.kt,3\8\38878164ced7142e478d2176c9d26babd11cf0ea
