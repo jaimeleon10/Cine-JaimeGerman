@@ -63,3 +63,17 @@ P
  src/main/kotlin/config/Config.kt,0\4\043aa446d40a768add682fb019dcec7856967ae3
 P
  src/main/kotlin/locale/Locale.kt,e\6\e6117dc5cb81c43e20506e82d568c978e4d4c3b5
+Y
+)src/main/kotlin/database/data/DemoData.kt,e\7\e76024aff8c5ed8cd3e9bbcc3dfff0d038a5d628
+e
+5src/main/kotlin/database/service/SqlDeLightManager.kt,d\a\da00725f06ad9f0673ca75528717a1b06029f4b1
+S
+#src/main/kotlin/di/ClienteModule.kt,1\8\1863865114e2bf099e39a0a1905ef404e20c9da5
+T
+$src/main/kotlin/di/DatabaseModule.kt,b\5\b53b14544eebf93928d03fb97bc5796dc9c4480f
+T
+$src/main/kotlin/di/ProductoModule.kt,b\6\b6ffb3de09e13d4e5babfb18c9118f58ee143924
+Q
+!src/main/kotlin/di/VentaModule.kt,4\e\4ec8c06b27d4e5550433187987a950db1c7bb1ff
+X
+(src/main/sqldelight/database/Database.sq,1\9\1963e783fb164049e4983dcf643bc40cc5ad1bb5
