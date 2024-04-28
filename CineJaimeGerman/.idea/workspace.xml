@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4526b0e4-3592-4c9b-abb2-e250928440df" name="Changes" comment="" />
+    <list default="true" id="4526b0e4-3592-4c9b-abb2-e250928440df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +33,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CineJaimeGerman" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CineJaimeGerman" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -74,7 +70,7 @@
     "Gradle.Tests in 'CineJaimeGerman.test'.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "hotfix/ReparacionStockCompra",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jleon/Cine-JaimeGerman/CineJaimeGerman/src/test/resources",
@@ -114,7 +110,7 @@
       <recent name="productos.services.database" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'CineJaimeGerman.test'">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="CineJaimeGerman [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'CineJaimeGerman.test'" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.Tests in 'CineJaimeGerman.test'" />
         <item itemvalue="Gradle.CineJaimeGerman [clean]" />
       </list>
     </recent_temporary>
@@ -194,6 +190,7 @@
       <workItem from="1714325342903" duration="209000" />
       <workItem from="1714325573032" duration="655000" />
       <workItem from="1714326261594" duration="1428000" />
+      <workItem from="1714341027665" duration="42000" />
     </task>
     <servers />
   </component>

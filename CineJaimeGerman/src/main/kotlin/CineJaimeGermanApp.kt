@@ -270,8 +270,6 @@ class CineJaimeGermanApp : KoinComponent {
 
                     logger.debug { "Actualizando complementos en la base de datos..." }
                     listadoComplementosCantidades.forEach { (complemento, cantidad) ->
-                        complemento.stock -= cantidad
-                        productoService.updateComplemento(complemento.id, complemento)
                         lineasDeVentas.add(
                             LineaVenta(
                                 tipoProducto = "Complemento",
