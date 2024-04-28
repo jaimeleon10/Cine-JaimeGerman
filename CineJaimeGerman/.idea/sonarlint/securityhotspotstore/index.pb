@@ -77,3 +77,11 @@ Q
 !src/main/kotlin/di/VentaModule.kt,4\e\4ec8c06b27d4e5550433187987a950db1c7bb1ff
 X
 (src/main/sqldelight/database/Database.sq,1\9\1963e783fb164049e4983dcf643bc40cc5ad1bb5
+U
+%src/main/kotlin/CineJaimeGermanApp.kt,2\7\27d685938c70fa2ec31e5a8fffce9034b270f147
+n
+>src/main/kotlin/clientes/repositories/ClienteRepositoryImpl.kt,1\a\1ae734ed6947cc67110063b49c169808c113a056
+k
+;data/FicherosDeDevolucion/entrada_A6_LYN282_28-04-2024.html,4\b\4ba3bbdda1f7470f6f683e4ea533d7c52e9e57b2
+\
+,data/FicherosJson/EstadoCine-28-04-2024.json,6\2\6242ee320ed92642aff84e1fe983da087e53763e

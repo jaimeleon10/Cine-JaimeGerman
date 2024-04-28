@@ -1,8 +1,8 @@
 package org.example.database.service
 
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
-import org.example.database.DatabaseQueries
-import org.example.database.Database
+import database.DatabaseQueries
+import dev.jaimeleon.database.Database
 import org.example.database.data.initDemoClientes
 import org.example.database.data.initDemoLineas
 import org.example.database.data.initDemoVentas
